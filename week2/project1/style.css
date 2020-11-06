@@ -1,0 +1,14 @@
+.one {color: darkgreen; font-family: Georgia, 'Times New Roman', Times, serif; text-align: center; font-size: 40px; }
+.two {
+    text-align: center; font-size: 30px; font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+.three {
+    text-decoration: none;  
+}
+.four > img {float: left; padding-right: 5%;}
+body {padding: 40px;}
+p {font-size: 20px;}
+#five {text-transform: uppercase ;}
+a:hover {
+    text-decoration: underline;
+}
