@@ -1,0 +1,73 @@
+h1, h2, h3, h4, {
+    font-family: 'Orbitron', sans-serif;
+    padding-top:  2%;   
+}
+.nav {
+    position: fixed;
+    width: 100%;
+    background-color: blue;
+    
+}
+.nav > span {
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.Teams {
+    position: relative;
+    left: 350px;
+}
+.Offense {
+    position: relative;
+    left: 430px;
+    text-align: center;
+}
+.Defense {
+    position: relative;
+    left: 880px;
+}
+.title {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    text-align: center;
+    padding-top: 50px;
+}
+.history-text { 
+    position: relative;
+    width: 1000px;
+    float: right;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;  
+    text-align: justify;      
+}
+.history-image {
+    position: relative;
+    text-align: center;
+    padding-top: .8%;
+    padding-left: 1%;
+}
+.table1 {
+    padding-right: 3px;
+}
+
+.table2 {
+    position: relative;
+    padding-top: 5px;
+}
+.table, th, td, tr {
+    border: 1px solid black;
+}    
+body {
+    margin-right: 1%;
+    margin-left: 1%;
+}
+.NFL-Logo {
+    position: relative;
+    float: right;
+    text-align: center;
+}
+.resources {
+    
+}
+
