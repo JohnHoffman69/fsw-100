@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+#control {
+    display: grid;
+    
+  
+    
+}
+#header, #sidebar, #content, #sidebar-2, #footer {
+    grid-template-columns: repeat(4) 1fr;
+    
+    border-radius: 17px;
+    border: 7px solid white;
+    text-align: center;
+    font-size: 15px;
+
+}
+#header {
+    background-color: pink;
+    
+}
+#sidebar {
+    background-color: powderblue;
+}
+#content {
+    background-color: powderblue;
+}
+#sidebar-2 {
+    background-color: royalblue;
+
+}
+#footer {
+    background-color: pink;
+}
+@media only screen and (min-width: 650px) {
+    #header {
+        background-color: pink;
+        grid-column: 1 / 5;
+        
+        
+    }
+    #sidebar {
+        background-color: powderblue;
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+    }
+    #content {
+        background-color: powderblue;
+        grid-column: 3 / 5;
+        grid-row: 2 / 3;
+    }
+    #sidebar-2 {
+        background-color: royalblue;
+        grid-column: 1 / 5;
+        
+    }
+    #footer {
+        background-color: pink;
+        grid-column: 1 / 5;
+    }    
+}
+
+@media only screen and (min-width: 1200px) {
+    #header {
+        background-color: pink;
+        grid-column: 1 / 5;
+        
+        
+    }
+    #sidebar {
+        background-color: powderblue;
+        grid-column: 1 / 2;
+        grid-row: 2 / 3; 
+    }
+    #content {
+        background-color: powderblue;
+        grid-column: 2 / 4;
+        grid-row: 2 / 3;
+    }
+    #sidebar-2 {
+        background-color: royalblue;
+        grid-column: 4 / 5;
+        grid-row: 2 / 3;
+
+        
+    }
+    #footer {
+        background-color: pink;
+        grid-column: 1 / 5;
+        
+    }    
+}
+
