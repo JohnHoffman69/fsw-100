@@ -1,0 +1,60 @@
+#flex-containers {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    background-color: gray;   
+}       
+#box1:hover:first-child {
+    background-color: gold;
+    height: 80px;
+    border: indigo;
+}
+#flex-containers > div:nth-child(1) {
+    background-color: brown;
+    height: 30px;
+    
+}
+#box2:hover:nth-child(2) {
+    background-color: blueviolet;
+    width:  40px;
+}
+#flex-containers > div:nth-child(2) {
+    background-color: black;
+    height: 30px;
+}
+#box3:hover:nth-child(3) {
+    box-shadow: 5px 10px gold;
+    opacity: 0.6;     
+}
+    
+#flex-containers > div:nth-child(3) {
+    background-color: purple;
+    height: 30px;   
+}
+#box4:hover:nth-child(4) {
+    position: relative;
+    left: 100px;
+    transform: rotateY(180deg);    
+}
+#flex-containers > div:nth-child(4) {
+    background-color: chartreuse;
+    height: 30px;    
+}
+#box5:hover:nth-child(5) {
+    border-radius: 100px;
+    border-style: dotted;
+}
+#flex-containers > div:nth-child(5) {
+    background-color: cyan;
+    height: 30px;    
+}
+#box6:hover:nth-child(6) {
+    background-position: bottom;
+    border-style: groove;
+}
+#flex-containers > div:nth-child(6) {
+    background-color: darkgreen;
+    height: 30px;    
+}

@@ -14,7 +14,6 @@
     border: 7px solid white;
     text-align: center;
     font-size: 15px;
-
 }
 #header {
     background-color: pink;
@@ -60,7 +59,6 @@
         grid-column: 1 / 5;
     }    
 }
-
 @media only screen and (min-width: 1200px) {
     #header {
         background-color: pink;
@@ -87,8 +85,7 @@
     }
     #footer {
         background-color: pink;
-        grid-column: 1 / 5;
-        
+        grid-column: 1 / 5;   
     }    
 }
 
