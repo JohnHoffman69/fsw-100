@@ -2,9 +2,7 @@
     box-sizing: border-box;
 }
 #control {
-    display: grid;
-    
-  
+    display: grid;  
     
 }
 #header, #sidebar, #content, #sidebar-2, #footer {
