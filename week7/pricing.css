@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 1px;
+    
+}
+.body {
+    display: grid;
+    grid-template-rows: 1 / 5;
+    
+}
+
+.PR {
+    justify-content: center;
+    margin-top: 7%;
+    font-family: 'Oxanium', cursive;
+    display: flex;
+    border-bottom: 3px solid transparent;
+    transition: border-bottom 0.5s;
+    text-transform: uppercase; 
+    color: #8a8a8a;
+}
+.PR {
+    
+    text-decoration: none;
+    transition: color 0.5s 
+}
+.PR:hover {
+    border-bottom: 4px solid goldenrod ;
+    color: #000044;
+}  
+.TB {
+    display: flex;
+    justify-content: center;
+    margin-top: 8%; 
+    font-family: 'Oxanium', cursive;  
+}
+.table, th, td, tr {
+    border: 4px solid #000044;
+    padding: 15px;  
+}
+/* Nav styles */    
+   
+    
+.nav-wrapper {
+    border-bottom: 1 px solid transparent;
+    transition: border-bottom 0.5s;
+    font-family: 'Oxanium', cursive;
+    justify-content: space-between;
+    padding: 38px;  
+    height: 20px;   
+    align-items: center;
+    font-family: 'Oxanium', cursive;
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-evenly;
+    grid-row: 1 /2;
+    font-size: 1.0em;
+    text-transform: uppercase;
+    position: fixed;
+    width: 100%;
+}
+.nav-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s    
+}
+.nav-wrapper:hover {
+    border-bottom: 4px solid goldenrod ;
+    
+}
+.nav-wrapper a:hover {
+    color: blue;
+}
+/* Content styles */
+.hdr {
+    font-family: 'Oxanium', cursive;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+    padding: 25px;
+}
+.pic1 {
+    width: 100%;   
+    margin-top: 1%;
+    height: 400px   
+}
+footer {
+    margin-top: 5%;
+}
+.fab {
+    padding: 8px;
+    height: 2rem;
+    font-size: 2em;
+}
+.foot > h3 {
+    font-family: 'Oxanium', cursive;
+    font-size: 16px;
+    color: #000044;
+    text-align: center;
+}
+.foot > button {
+    text-align: center;
+    font-family: 'Oxanium', cursive;
+    background-color:  #000044;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px;
+    display: flex;
+}
+.foot > form, input {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+input[type=email] {
+    border: 2px solid #000044;
+}
